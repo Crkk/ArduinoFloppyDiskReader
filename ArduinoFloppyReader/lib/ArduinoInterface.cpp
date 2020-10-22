@@ -161,7 +161,7 @@ DiagnosticResponse ArduinoInterface::testCTS(const unsigned int portNumber) {
 	if (m_lastError != DiagnosticResponse::drOK) return m_lastError;
 
 	for (int a = 1; a <= 10; a++) {
-		// Port opned.  We need to check what hapens as the pin is toggled
+		// Port opned.  We need to check what happens as the pin is toggled
 		m_lastError = runCommand(COMMAND_DIAGNOSTICS, (a&1)?'1':'2');
 		if (m_lastError != drOK) {
 			m_lastCommand = lcRunDiagnostics;
