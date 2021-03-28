@@ -1,5 +1,6 @@
 # Arduino Powered Amiga Floppy Disk Reader and Writer
-Created by Robert Smith @RobSmithDev 
+Created by Robert Smith @RobSmithDev
+Hardware design added by @Crkk
 
 # What is it?
 This project uses an Arduino to interface with a floppy disk drive and communicate with a PC in order to recover the data from Amiga formatted AmigaDOS disks.
