@@ -1,0 +1,12 @@
+100 nF 50V	C1, C2, C6		0603
+1 kOhm		R1, R2			0603
+220 Ohm		R3, R4			0603
+22 uF 25V	C3, C4, C5, C7, C8, C9	0805
+ATMEGA328P	U1			TQFP32
+FT232RL		IC1			SSOP28
+16MHz resonator Y1			3.2x1.3
+Mini USB	USB			B-SMT
+Green LED	D1			5mm
+Red LED		D2			5mm
+Header		FLOPPY			34pin male
+FPC conn	FLOPPY_26		26pin 1mm
